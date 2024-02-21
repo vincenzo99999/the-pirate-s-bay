@@ -9,6 +9,7 @@ public class LocalisationManager : MonoBehaviour
     [SerializeField] TextMeshProUGUI resetGameButton;
     [SerializeField] TextMeshProUGUI changeLanguageText;
     [SerializeField] TextMeshProUGUI aboutButton;
+    [SerializeField] TextMeshProUGUI exit;
 
     [SerializeField] Strings localization;
 
