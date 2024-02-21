@@ -10,6 +10,7 @@ public class LocalisationManager : MonoBehaviour
     [SerializeField] TextMeshProUGUI changeLanguageText;
     [SerializeField] TextMeshProUGUI aboutButton;
     [SerializeField] TextMeshProUGUI exit;
+    //Make a line like this for every string in the Strings Script
 
     [SerializeField] Strings localization;
 
@@ -25,6 +26,7 @@ public class LocalisationManager : MonoBehaviour
         resetGameButton.text = localization.resetGame[languageIndex];
         changeLanguageText.text = localization.changeLanguage[languageIndex];
         aboutButton.text = localization.about[languageIndex];
+        //Make a line like this for every new line you added to the SerializeField list
     }
 
 
