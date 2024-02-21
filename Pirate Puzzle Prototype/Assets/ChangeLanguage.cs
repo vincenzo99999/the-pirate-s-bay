@@ -8,22 +8,20 @@ public class ChangeLanguage : MonoBehaviour
 
     [SerializeField] string[] languages;
     [SerializeField] TextMeshProUGUI languageButtonText;
-
+    [SerializeField] LocalisationManager localisationManager;
 
     private int languageIndex = 0;
 
     public void SwitchLanguage()
     {
 
-        Debug.Log(languages.Length);
-
         if(languageIndex < languages.Length -1)
             languageIndex++;
         else
             languageIndex = 0;
 
-        Debug.Log("index is at: " + languageIndex);
-
         languageButtonText.text = languages[languageIndex];
+
+        localisationManager.SetLocalisation(languageIndex);
     }
 }
