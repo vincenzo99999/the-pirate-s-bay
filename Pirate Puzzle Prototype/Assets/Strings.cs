@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Strings : MonoBehaviour
 {
-    string[] resetGame = { "Reset Game", "Spiel zuruecksetzen" };
-    string[] about = { "About", "Ueber das Spiel" };
-    string[] changeLanguage = { "Change Language", "Sprache aendern" };
+   public string[] resetGame = { "Reset Game", "Spiel zuruecksetzen" };
+   public string[] about = { "About", "Ueber das Spiel" };
+   public string[] changeLanguage = { "Change Language", "Sprache aendern" };
 }
