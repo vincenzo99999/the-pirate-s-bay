@@ -1,12 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class Navigation : MonoBehaviour
 {
 
     [SerializeField] GameObject screenToGo;
-    [SerializeField] TextMesh hintText;
+    [SerializeField] TextMeshProUGUI hintText;
 
     [SerializeField] string[] hints;
 
@@ -22,8 +23,9 @@ public class Navigation : MonoBehaviour
     public void NavigateToHint()
     {
         NavigateTo();
+        hintText.text = hints[hintNumber];
 
-        //To finish
-        hintNumber++;
+        if(hintNumber < 2)
+            hintNumber++;
     }
 }
