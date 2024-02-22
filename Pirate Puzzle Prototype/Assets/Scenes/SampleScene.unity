@@ -994,6 +994,7 @@ GameObject:
   - component: {fileID: 421353922}
   - component: {fileID: 421353924}
   - component: {fileID: 421353923}
+  - component: {fileID: 421353925}
   m_Layer: 5
   m_Name: ChangeLanguageText
   m_TagString: Untagged
@@ -1117,6 +1118,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 421353921}
   m_CullTransparentMesh: 1
+--- !u!114 &421353925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 421353921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfc4d522ccbed4d16a2fcc6ceda4fd57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  localisedText:
+  - Change Language
+  - Sprache aendern
 --- !u!1 &440259644
 GameObject:
   m_ObjectHideFlags: 0
@@ -1999,6 +2015,7 @@ GameObject:
   - component: {fileID: 929291517}
   - component: {fileID: 929291519}
   - component: {fileID: 929291518}
+  - component: {fileID: 929291520}
   m_Layer: 5
   m_Name: ResetGameText
   m_TagString: Untagged
@@ -2122,6 +2139,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 929291516}
   m_CullTransparentMesh: 1
+--- !u!114 &929291520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 929291516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfc4d522ccbed4d16a2fcc6ceda4fd57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  localisedText:
+  - Reset Game
+  - Spiel zuruecksetzen
 --- !u!1 &945053982
 GameObject:
   m_ObjectHideFlags: 0
@@ -3307,6 +3339,7 @@ GameObject:
   - component: {fileID: 1633335953}
   - component: {fileID: 1633335955}
   - component: {fileID: 1633335954}
+  - component: {fileID: 1633335956}
   m_Layer: 5
   m_Name: AboutText
   m_TagString: Untagged
@@ -3430,6 +3463,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1633335952}
   m_CullTransparentMesh: 1
+--- !u!114 &1633335956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1633335952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfc4d522ccbed4d16a2fcc6ceda4fd57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  localisedText:
+  - About
+  - Ueber das Spiel
 --- !u!1 &1922353978
 GameObject:
   m_ObjectHideFlags: 0
