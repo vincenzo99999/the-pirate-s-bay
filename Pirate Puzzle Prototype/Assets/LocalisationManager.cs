@@ -38,6 +38,7 @@ public class LocalisationManager : MonoBehaviour
         {
             localisedObject.SetLanguage(languageIndex);
         }
+        Debug.Log("TEST");
     }
 
 
