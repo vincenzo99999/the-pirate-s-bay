@@ -26,6 +26,12 @@ public class NewBehaviourScript : MonoBehaviour
 
             transform.position = initialPosition;
         }
+        else if (other.tag == "Finish")
+        {
+            //pass (loadNextLevel();)
+            Debug.Log("U won");
+            transform.position = initialPosition;
+        }
     }
 
     public void MoveRight()
