@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class NewBehaviourScript : MonoBehaviour
 {
-    [SerializeField] float snapAmount = 0.5f;
+    [SerializeField] float snapAmount = 0.5f;  
     [SerializeField] Vector3 initialPosition;
     // Start is called before the first frame update
     void Start()
