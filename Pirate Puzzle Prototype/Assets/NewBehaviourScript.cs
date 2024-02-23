@@ -4,13 +4,34 @@ using UnityEngine;
 
 public class NewBehaviourScript : MonoBehaviour
 {
-    [SerializeField] float snapAmount = 0.5f;
+    [SerializeField] float snapAmount = 0.5f;  
+    [SerializeField] Vector3 initialPosition;
     // Start is called before the first frame update
-   
+    void Start()
+    {
+        initialPosition = transform.position;
+    }
     // Update is called once per frame
     void Update()
     {
 
+    }
+
+    public void OnTriggerEnter2D(Collider2D other)
+    {
+        Debug.Log("Isentering");
+        if (other.tag == "Respawn")
+        {
+            Debug.Log("Isentering2");
+
+            transform.position = initialPosition;
+        }
+        else if (other.tag == "Finish")
+        {
+            //pass (loadNextLevel();)
+            Debug.Log("U won");
+            transform.position = initialPosition;
+        }
     }
 
     public void MoveRight()
