@@ -5,49 +5,57 @@ using UnityEngine;
 public class NewBehaviourScript : MonoBehaviour
 {
     [SerializeField] float snapAmount = 0.5f;  
-    [SerializeField] Vector3 initialPosition;
+    [SerializeField] Vector3 previousPosition;
+
+    [SerializeField] AudioSource bumpSound;
     // Start is called before the first frame update
     void Start()
     {
-        initialPosition = transform.position;
+        previousPosition = transform.position;
+        //now it's just gonna bump back
     }
-    // Update is called once per frame
-    void Update()
-    {
 
-    }
 
     public void OnTriggerEnter2D(Collider2D other)
     {
         Debug.Log("Isentering");
         if (other.tag == "Respawn")
         {
-            Debug.Log("Isentering2");
 
-            transform.position = initialPosition;
+            bumpSound.time = .1f;
+            bumpSound.Play();
+
+            Debug.Log("Isentering2");
+            transform.position = previousPosition;
         }
         else if (other.tag == "Finish")
         {
             //pass (loadNextLevel();)
             Debug.Log("U won");
-            transform.position = initialPosition;
+            
         }
     }
 
+
+
     public void MoveRight()
     {
+        previousPosition = transform.position;
         transform.position += Vector3.right * snapAmount;
     }
     public void MoveLeft()
     {
+        previousPosition = transform.position;
         transform.position += Vector3.left * snapAmount;
     }
     public void MoveUp()
     {
+        previousPosition = transform.position;
         transform.position += Vector3.up * snapAmount;
     }
     public void MoveDown()
     {
+        previousPosition = transform.position;
         transform.position += Vector3.down * snapAmount;
     }
 }
