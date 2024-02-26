@@ -5,13 +5,13 @@ using UnityEngine;
 public class NewBehaviourScript : MonoBehaviour
 {
     [SerializeField] float snapAmount = 0.5f;  
-    [SerializeField] Vector3 previousPosition;
+    [SerializeField] Vector3 initialPosition;
 
     [SerializeField] AudioSource bumpSound;
     // Start is called before the first frame update
     void Start()
     {
-        previousPosition = transform.position;
+        initialPosition = transform.position;
         //now it's just gonna bump back
     }
 
@@ -26,7 +26,7 @@ public class NewBehaviourScript : MonoBehaviour
             bumpSound.Play();
 
             Debug.Log("Isentering2");
-            transform.position = previousPosition;
+            transform.position = initialPosition;
         }
         else if (other.tag == "Finish")
         {
@@ -40,22 +40,21 @@ public class NewBehaviourScript : MonoBehaviour
 
     public void MoveRight()
     {
-        previousPosition = transform.position;
         transform.position += Vector3.right * snapAmount;
     }
     public void MoveLeft()
     {
-        previousPosition = transform.position;
+        
         transform.position += Vector3.left * snapAmount;
     }
     public void MoveUp()
     {
-        previousPosition = transform.position;
+        
         transform.position += Vector3.up * snapAmount;
     }
     public void MoveDown()
     {
-        previousPosition = transform.position;
+        
         transform.position += Vector3.down * snapAmount;
     }
 }
