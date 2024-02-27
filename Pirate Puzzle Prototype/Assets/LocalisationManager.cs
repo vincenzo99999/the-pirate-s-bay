@@ -19,26 +19,20 @@ public class LocalisationManager : MonoBehaviour
 
     private LocalisedObject[] localisedObjects;
 
-    private void Awake()
+    private void OnEnable()
     {
         localisedObjects = FindObjectsOfType<LocalisedObject>();
     }
 
-    //public void SetLocalisation(int languageIndex)
-    //{
-    //    resetGameButton.text = localization.resetGame[languageIndex];
-    //    changeLanguageText.text = localization.changeLanguage[languageIndex];
-    //    aboutButton.text = localization.about[languageIndex];
-    //    //Make a line like this for every new line you added to the SerializeField list
-    //}
 
     public void SetLocalisation(int languageIndex)
     {
+        
+        OnEnable(); //This fixed the issue. On bigger project should be optimized but fuck it, we ball
         foreach(LocalisedObject localisedObject in localisedObjects)
         {
             localisedObject.SetLanguage(languageIndex);
         }
-        Debug.Log("TEST");
     }
 
 
