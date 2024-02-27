@@ -22,11 +22,15 @@ public class Navigation : MonoBehaviour
 
     private void Start()
     {
-        //Check if has accessibility component
+
         AccessibilityNode node;
+        //Check if has accessibility component
         if (TryGetComponent<AccessibilityNode>(out node))
         {
+
             hasAccessibility = true;
+
+
             GameObject accessibilityParent = new GameObject(gameObject.name + "_AccParent", typeof(RectTransform));
             accessibilityParent.transform.position = transform.position;
             accessibilityParent.transform.SetParent(transform.parent);
