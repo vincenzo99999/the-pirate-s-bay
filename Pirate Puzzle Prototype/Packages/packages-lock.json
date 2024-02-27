@@ -1,5 +1,43 @@
 {
   "dependencies": {
+    "com.apple.unityplugin.accessibility": {
+      "version": "file:com.apple.unityplugin.accessibility-1.0.2",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.apple.unityplugin.core": "1.0.2"
+      }
+    },
+    "com.apple.unityplugin.core": {
+      "version": "file:com.apple.unityplugin.core-2.0.0",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "com.apple.unityplugin.corehaptics": {
+      "version": "file:com.apple.unityplugin.corehaptics-1.0.2",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.apple.unityplugin.core": "1.0.2"
+      }
+    },
+    "com.apple.unityplugin.gamecontroller": {
+      "version": "file:com.apple.unityplugin.gamecontroller-1.0.2",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.apple.unityplugin.core": "1.0.2"
+      }
+    },
+    "com.apple.unityplugin.phase": {
+      "version": "file:com.apple.unityplugin.phase-1.0.5",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.apple.unityplugin.core": "1.0.4"
+      }
+    },
     "com.unity.2d.animation": {
       "version": "9.1.0",
       "depth": 1,
