@@ -16,18 +16,33 @@ public class Navigation : MonoBehaviour
     [SerializeField] string[] hints;
 
     [SerializeField] int hintNumber = 0;
-    
+
+    private bool hasAccessibility = false;
+
 
     private void Start()
     {
-        
-        AccessibilityNode node = GetComponent<AccessibilityNode>();
-        
+        //Check if has accessibility component
+        AccessibilityNode node;
+        if (TryGetComponent<AccessibilityNode>(out node))
+        {
+            hasAccessibility = true;
+            GameObject accessibilityParent = new GameObject(gameObject.name + "_AccParent", typeof(RectTransform));
+            accessibilityParent.transform.position = transform.position;
+            accessibilityParent.transform.SetParent(transform.parent);
+            AccessibilityNode parentNode = accessibilityParent.AddComponent<AccessibilityNode>();
 
-        GameObject accessibilityParent = new GameObject(gameObject.name + "_AccParent", typeof(RectTransform));
-        accessibilityParent.transform.position = transform.position;
-        accessibilityParent.transform.SetParent(transform.parent);
-        transform.SetParent(accessibilityParent.transform);
+            parentNode.AccessibilityLabel = node.AccessibilityLabel;
+            parentNode.AccessibilityTraits = node.AccessibilityTraits;
+            parentNode.AccessibilityHint = node.AccessibilityHint;
+            parentNode.AccessibilityIdentifier = node.AccessibilityIdentifier;
+            parentNode.AccessibilityValue = node.AccessibilityValue;
+
+            node.enabled = false;
+
+            transform.SetParent(accessibilityParent.transform);
+        }
+
 
             
     }
@@ -35,7 +50,15 @@ public class Navigation : MonoBehaviour
     public void NavigateTo()
     {
         screenToGo.SetActive(true);
-        transform.parent.gameObject.SetActive(false);
+        //Go up two layers 'cause of accessibility
+        if(hasAccessibility)
+            transform.parent.
+                transform.parent.
+                gameObject.SetActive(false);
+        else
+            transform.parent.
+gameObject.SetActive(false);
+
     }
 
     public void NavigateToHint()

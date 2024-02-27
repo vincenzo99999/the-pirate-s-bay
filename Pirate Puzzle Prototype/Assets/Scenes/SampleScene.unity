@@ -452,8 +452,8 @@ GameObject:
   - component: {fileID: 57171276}
   - component: {fileID: 57171275}
   - component: {fileID: 57171274}
-  - component: {fileID: 57171277}
   - component: {fileID: 57171279}
+  - component: {fileID: 57171277}
   m_Layer: 5
   m_Name: RightEye
   m_TagString: Untagged
@@ -590,7 +590,6 @@ MonoBehaviour:
   hintText: {fileID: 0}
   hints: []
   hintNumber: 0
-  node: {fileID: 0}
 --- !u!114 &57171279
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1991,7 +1990,6 @@ MonoBehaviour:
   hintText: {fileID: 0}
   hints: []
   hintNumber: 0
-  node: {fileID: 0}
 --- !u!114 &181124820
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3104,8 +3102,8 @@ GameObject:
   - component: {fileID: 352276163}
   - component: {fileID: 352276162}
   - component: {fileID: 352276161}
-  - component: {fileID: 352276160}
   - component: {fileID: 352276159}
+  - component: {fileID: 352276160}
   m_Layer: 5
   m_Name: Settings Button (1)
   m_TagString: Untagged
@@ -3174,7 +3172,6 @@ MonoBehaviour:
   hintText: {fileID: 0}
   hints: []
   hintNumber: 0
-  node: {fileID: 0}
 --- !u!114 &352276161
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3908,8 +3905,8 @@ GameObject:
   - component: {fileID: 440259649}
   - component: {fileID: 440259648}
   - component: {fileID: 440259647}
-  - component: {fileID: 440259646}
   - component: {fileID: 440259651}
+  - component: {fileID: 440259646}
   m_Layer: 5
   m_Name: Settings Button
   m_TagString: Untagged
@@ -3952,7 +3949,6 @@ MonoBehaviour:
   hintText: {fileID: 0}
   hints: []
   hintNumber: 0
-  node: {fileID: 440259651}
 --- !u!114 &440259647
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4227,7 +4223,6 @@ MonoBehaviour:
   - "Hint 3: Set up assistive touch and define switch 1 as \u201CSingle tap\u201D
     (you can tap with any other body part) and give it the function\u201DShake Phone\u201D"
   hintNumber: 0
-  node: {fileID: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -4332,8 +4327,8 @@ GameObject:
   - component: {fileID: 527170166}
   - component: {fileID: 527170165}
   - component: {fileID: 527170164}
-  - component: {fileID: 527170167}
   - component: {fileID: 527170168}
+  - component: {fileID: 527170167}
   m_Layer: 5
   m_Name: RightArm
   m_TagString: Untagged
@@ -4470,7 +4465,6 @@ MonoBehaviour:
   hintText: {fileID: 0}
   hints: []
   hintNumber: 0
-  node: {fileID: 527170168}
 --- !u!114 &527170168
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4523,7 +4517,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 639721828}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.5}
+  m_LocalPosition: {x: 0, y: 0, z: -1}
   m_LocalScale: {x: 3.225, y: 5.2431397, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5030,7 +5024,6 @@ MonoBehaviour:
   hintText: {fileID: 0}
   hints: []
   hintNumber: 0
-  node: {fileID: 0}
 --- !u!114 &799159567
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5592,7 +5585,6 @@ MonoBehaviour:
   hintText: {fileID: 0}
   hints: []
   hintNumber: 0
-  node: {fileID: 0}
 --- !u!1 &970776230
 GameObject:
   m_ObjectHideFlags: 0
@@ -5605,8 +5597,8 @@ GameObject:
   - component: {fileID: 970776236}
   - component: {fileID: 970776235}
   - component: {fileID: 970776234}
-  - component: {fileID: 970776233}
   - component: {fileID: 970776232}
+  - component: {fileID: 970776233}
   m_Layer: 5
   m_Name: Settings Button (2)
   m_TagString: Untagged
@@ -5675,7 +5667,6 @@ MonoBehaviour:
   hintText: {fileID: 0}
   hints: []
   hintNumber: 0
-  node: {fileID: 0}
 --- !u!114 &970776234
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6003,7 +5994,6 @@ MonoBehaviour:
   hintText: {fileID: 0}
   hints: []
   hintNumber: 0
-  node: {fileID: 0}
 --- !u!1 &1054705958
 GameObject:
   m_ObjectHideFlags: 0
@@ -6016,8 +6006,8 @@ GameObject:
   - component: {fileID: 1054705964}
   - component: {fileID: 1054705963}
   - component: {fileID: 1054705962}
-  - component: {fileID: 1054705961}
   - component: {fileID: 1054705960}
+  - component: {fileID: 1054705961}
   m_Layer: 5
   m_Name: Settings Button (3)
   m_TagString: Untagged
@@ -6086,7 +6076,6 @@ MonoBehaviour:
   hintText: {fileID: 0}
   hints: []
   hintNumber: 0
-  node: {fileID: 0}
 --- !u!114 &1054705962
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6561,8 +6550,8 @@ GameObject:
   - component: {fileID: 1178169795}
   - component: {fileID: 1178169794}
   - component: {fileID: 1178169793}
-  - component: {fileID: 1178169792}
   - component: {fileID: 1178169791}
+  - component: {fileID: 1178169792}
   m_Layer: 5
   m_Name: LeftArm (1)
   m_TagString: Untagged
@@ -6631,7 +6620,6 @@ MonoBehaviour:
   hintText: {fileID: 0}
   hints: []
   hintNumber: 0
-  node: {fileID: 0}
 --- !u!114 &1178169793
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7974,8 +7962,8 @@ GameObject:
   - component: {fileID: 1579712230}
   - component: {fileID: 1579712229}
   - component: {fileID: 1579712228}
-  - component: {fileID: 1579712231}
   - component: {fileID: 1579712233}
+  - component: {fileID: 1579712231}
   m_Layer: 5
   m_Name: LeftArm
   m_TagString: Untagged
@@ -8112,7 +8100,6 @@ MonoBehaviour:
   hintText: {fileID: 0}
   hints: []
   hintNumber: 0
-  node: {fileID: 1579712233}
 --- !u!114 &1579712233
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8292,7 +8279,6 @@ MonoBehaviour:
     whats on your screen?'
   - 'Hint 3: Ask Siri to turn on Voice over for you'
   hintNumber: 0
-  node: {fileID: 0}
 --- !u!1 &1586174744
 GameObject:
   m_ObjectHideFlags: 0
@@ -9028,7 +9014,6 @@ MonoBehaviour:
   hintText: {fileID: 0}
   hints: []
   hintNumber: 0
-  node: {fileID: 0}
 --- !u!114 &1942873854
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9314,7 +9299,6 @@ MonoBehaviour:
   hintText: {fileID: 0}
   hints: []
   hintNumber: 0
-  node: {fileID: 0}
 --- !u!114 &2014199556
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9876,8 +9860,8 @@ GameObject:
   - component: {fileID: 2107685436}
   - component: {fileID: 2107685435}
   - component: {fileID: 2107685434}
-  - component: {fileID: 2107685437}
   - component: {fileID: 2107685439}
+  - component: {fileID: 2107685437}
   m_Layer: 5
   m_Name: LeftEye
   m_TagString: Untagged
@@ -10014,7 +9998,6 @@ MonoBehaviour:
   hintText: {fileID: 0}
   hints: []
   hintNumber: 0
-  node: {fileID: 0}
 --- !u!114 &2107685439
 MonoBehaviour:
   m_ObjectHideFlags: 0
