@@ -6,6 +6,7 @@ public class FadeIn : MonoBehaviour
 {
     [SerializeField] Animator animator;
 
+    
     public void FadeInTrigger()
     {
         animator.SetTrigger("Clicked");
