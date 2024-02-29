@@ -27,7 +27,7 @@ public class LocalisedObject : MonoBehaviour
             //Add it if it didn't have it already
             node = gameObject.AddComponent<AccessibilityNode>();
             node.AccessibilityLabel = localisedText[0];
-
+            
             Debug.Log($"Added accessibility to: {gameObject.name}", gameObject);
 
             //Check if it's a button
