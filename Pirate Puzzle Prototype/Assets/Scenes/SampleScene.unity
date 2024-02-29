@@ -4598,6 +4598,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Screen
       objectReference: {fileID: 0}
+    - target: {fileID: 2156406670404416446, guid: 3db00ac73b12d4b4b8cb52fe39be0ffe, type: 3}
+      propertyPath: m_userAccessibilityTraits
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3318110881791225598, guid: 3db00ac73b12d4b4b8cb52fe39be0ffe, type: 3}
       propertyPath: screenToGo
       value: 
@@ -4692,6 +4696,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6234939465629410319, guid: 3db00ac73b12d4b4b8cb52fe39be0ffe, type: 3}
       propertyPath: m_userIsAccessibilityElement
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6476682077471045020, guid: 3db00ac73b12d4b4b8cb52fe39be0ffe, type: 3}
+      propertyPath: m_userAccessibilityTraits
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6576866295573174234, guid: 3db00ac73b12d4b4b8cb52fe39be0ffe, type: 3}
