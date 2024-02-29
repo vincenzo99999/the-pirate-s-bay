@@ -1,7 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using Apple.Accessibility;
 using UnityEngine;
+
 
 public class LocalisedObject : MonoBehaviour
 {
@@ -18,6 +20,13 @@ public class LocalisedObject : MonoBehaviour
     public void SetLanguage(int languageIndex)
     {
         textMesh.text = localisedText[languageIndex];
+
+
+        if (textMesh.gameObject.TryGetComponent())
+        {
+
+        }
+
     }
 
 

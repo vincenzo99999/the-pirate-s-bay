@@ -1,28 +1,64 @@
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using Apple.Accessibility;
 using UnityEngine;
+
 
 public class LocalisationManager : MonoBehaviour
 {
 
-    [SerializeField] TextMeshProUGUI resetGameButton;
-    [SerializeField] TextMeshProUGUI changeLanguageText;
-    [SerializeField] TextMeshProUGUI aboutButton;
-
-    [SerializeField] TextMeshProUGUI exit;
-    //Make a line like this for every string in the Strings Script
-
-
-    [SerializeField] Strings localization;
-
-
     private LocalisedObject[] localisedObjects;
+    private TextMeshProUGUI[] texts;
 
     private void OnEnable()
     {
+        //Gets all objects with the LocalisedObject script
         localisedObjects = FindObjectsOfType<LocalisedObject>();
+
+        //If in editor (not in release)
+        if (Application.isEditor)
+        {
+            //Save the currently active screen
+            GameObject currentScreen = GameObject.FindGameObjectWithTag("Screen");
+
+            ScreenManager[] screens = Resources.FindObjectsOfTypeAll<ScreenManager>();
+
+            //Set all screen active
+            foreach(ScreenManager screen in screens)
+            {
+                screen.gameObject.SetActive(true);
+            }
+
+            //Get all objects with a text
+            texts = FindObjectsOfType<TextMeshProUGUI>();
+
+            //Check their localisation
+            foreach(TextMeshProUGUI text in texts)
+            {
+                GameObject obj = text.gameObject;
+                LocalisedObject localisedObject;
+
+                if(!obj.TryGetComponent(out localisedObject))
+                {
+                    Debug.LogWarning($"Localisation Warning: {obj.name} is missing LocalisedObject component", obj);
+                }
+
+            }
+            //Disable all screens, but the previously active one
+            foreach (ScreenManager screen in screens)
+            {
+                if(!ReferenceEquals(screen.gameObject,currentScreen))
+                    screen.gameObject.SetActive(false);
+            }
+
+        }
+
+
+
     }
+
+
 
 
     public void SetLocalisation(int languageIndex)
