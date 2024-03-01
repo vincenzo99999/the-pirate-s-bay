@@ -159,8 +159,8 @@ MonoBehaviour:
   - 
   - Arrrgh
   - Whoever did this to me is gonna pay
-  sceneName: 
-  transition: {fileID: 0}
+  sceneName: DiningScene
+  transition: {fileID: 11400000, guid: 5d42ad7319df4a8439d74d82f30a60cc, type: 2}
   loadTime: 0
 --- !u!114 &48819547
 MonoBehaviour:

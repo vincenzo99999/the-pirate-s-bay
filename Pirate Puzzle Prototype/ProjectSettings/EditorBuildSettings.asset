@@ -17,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/BlindLevelScene.unity
     guid: 585df76087aa243e7b1fafd94c9595af
+  - enabled: 1
+    path: Assets/Scenes/Intro.unity
+    guid: 63fd3b27f2b7c4220b6201a8383abe6a
+  - enabled: 1
+    path: Assets/Scenes/DiningScene.unity
+    guid: 41c5b74094b624f63b953caa3a4626a7
   m_configObjects: {}
