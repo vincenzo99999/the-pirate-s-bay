@@ -713,7 +713,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &84914840
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2064,7 +2064,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &182658488
 Transform:
   m_ObjectHideFlags: 0
@@ -7073,7 +7073,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1230466974
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8396,6 +8396,7 @@ GameObject:
   - component: {fileID: 1584615115}
   - component: {fileID: 1584615114}
   - component: {fileID: 1584615113}
+  - component: {fileID: 1584615118}
   m_Layer: 5
   m_Name: DoneButton
   m_TagString: Untagged
@@ -8559,6 +8560,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1584615111}
   m_CullTransparentMesh: 1
+--- !u!114 &1584615118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1584615111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfc4d522ccbed4d16a2fcc6ceda4fd57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  localisedText:
+  - Done
+  - 
 --- !u!1 &1586174744
 GameObject:
   m_ObjectHideFlags: 0
@@ -9293,8 +9309,8 @@ MonoBehaviour:
   m_userIsAccessibilityElement: 1
   _userAccessibilityTraitsProvided: 1
   m_userAccessibilityTraits: 0
-  _userAccessibilityLabelProvided: 0
-  m_userAccessibilityLabel: 
+  _userAccessibilityLabelProvided: 1
+  m_userAccessibilityLabel: Read me with voice over
   _userAccessibilityValueProvided: 0
   m_userAccessibilityValue: 
   _userAccessibilityHintProvided: 1
