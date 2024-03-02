@@ -168,6 +168,38 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &112035915 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4695342290030127714, guid: 3db00ac73b12d4b4b8cb52fe39be0ffe, type: 3}
+  m_PrefabInstance: {fileID: 731705884595427484}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &112035920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 112035915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62a7101dad1184f238b67f90ec1a03ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _userIsAccessibilityElementProvided: 1
+  m_userIsAccessibilityElement: 1
+  _userAccessibilityTraitsProvided: 1
+  m_userAccessibilityTraits: 64
+  _userAccessibilityLabelProvided: 1
+  m_userAccessibilityLabel: Hint
+  _userAccessibilityValueProvided: 1
+  m_userAccessibilityValue: 'Say: "Siri enable voice control" And then say: "Show
+    names"'
+  _userAccessibilityHintProvided: 0
+  m_userAccessibilityHint: 
+  _userAccessibilityIdentifierProvided: 0
+  m_userAccessibilityIdentifier: 
+  _userAccessibilityViewIsModalProvided: 0
+  m_userAccessibilityViewIsModal: 0
 --- !u!1 &253157561
 GameObject:
   m_ObjectHideFlags: 0
@@ -608,6 +640,140 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &660718275
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 660718276}
+  - component: {fileID: 660718279}
+  - component: {fileID: 660718278}
+  - component: {fileID: 660718277}
+  m_Layer: 5
+  m_Name: tap
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &660718276
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 660718275}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1200372119}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &660718277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 660718275}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62a7101dad1184f238b67f90ec1a03ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _userIsAccessibilityElementProvided: 1
+  m_userIsAccessibilityElement: 1
+  _userAccessibilityTraitsProvided: 1
+  m_userAccessibilityTraits: 0
+  _userAccessibilityLabelProvided: 1
+  m_userAccessibilityLabel: tap to continue
+  _userAccessibilityValueProvided: 0
+  m_userAccessibilityValue: 
+  _userAccessibilityHintProvided: 0
+  m_userAccessibilityHint: 
+  _userAccessibilityIdentifierProvided: 0
+  m_userAccessibilityIdentifier: 
+  _userAccessibilityViewIsModalProvided: 0
+  m_userAccessibilityViewIsModal: 0
+--- !u!114 &660718278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 660718275}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &660718279
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 660718275}
+  m_CullTransparentMesh: 1
+--- !u!1 &896332610 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7468678826385472474, guid: 7768b222593084b3cb1d10f2f0d937f7, type: 3}
+  m_PrefabInstance: {fileID: 2517196838378472397}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &896332614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 896332610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62a7101dad1184f238b67f90ec1a03ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _userIsAccessibilityElementProvided: 1
+  m_userIsAccessibilityElement: 1
+  _userAccessibilityTraitsProvided: 1
+  m_userAccessibilityTraits: 64
+  _userAccessibilityLabelProvided: 1
+  m_userAccessibilityLabel: 
+  _userAccessibilityValueProvided: 1
+  m_userAccessibilityValue: Good.   Now find out what accessibility features to use
+    ito solve other levels!
+  _userAccessibilityHintProvided: 0
+  m_userAccessibilityHint: 
+  _userAccessibilityIdentifierProvided: 0
+  m_userAccessibilityIdentifier: 
+  _userAccessibilityViewIsModalProvided: 0
+  m_userAccessibilityViewIsModal: 0
 --- !u!1 &1083120151
 GameObject:
   m_ObjectHideFlags: 0
@@ -1067,7 +1233,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8086517691605575909, guid: 1ccfdf39e5f5f4250912ea5c809fff80, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8962572102855202105, guid: 1ccfdf39e5f5f4250912ea5c809fff80, type: 3}
       propertyPath: screenToGo
@@ -1321,6 +1487,68 @@ MonoBehaviour:
   eyeHint1: []
   eyeHint2: []
   eyeHint3: []
+--- !u!1 &2068275887
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2068275888}
+  - component: {fileID: 2068275889}
+  m_Layer: 5
+  m_Name: Tap
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2068275888
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2068275887}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1450622069}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -779.5}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2068275889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2068275887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62a7101dad1184f238b67f90ec1a03ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _userIsAccessibilityElementProvided: 1
+  m_userIsAccessibilityElement: 1
+  _userAccessibilityTraitsProvided: 1
+  m_userAccessibilityTraits: 0
+  _userAccessibilityLabelProvided: 1
+  m_userAccessibilityLabel: Tap
+  _userAccessibilityValueProvided: 1
+  m_userAccessibilityValue: to continue
+  _userAccessibilityHintProvided: 0
+  m_userAccessibilityHint: 
+  _userAccessibilityIdentifierProvided: 0
+  m_userAccessibilityIdentifier: 
+  _userAccessibilityViewIsModalProvided: 0
+  m_userAccessibilityViewIsModal: 0
 --- !u!1001 &731705884595427484
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1340,6 +1568,21 @@ PrefabInstance:
     - target: {fileID: 1579484973198560778, guid: 3db00ac73b12d4b4b8cb52fe39be0ffe, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1588531644610608040, guid: 3db00ac73b12d4b4b8cb52fe39be0ffe, type: 3}
+      propertyPath: m_text
+      value: 'Say:
+
+        "Siri enable voice control"
+
+        And then say:
+
+        "Show
+        names"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2170937454217314324, guid: 3db00ac73b12d4b4b8cb52fe39be0ffe, type: 3}
+      propertyPath: tap
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3318110881791225598, guid: 3db00ac73b12d4b4b8cb52fe39be0ffe, type: 3}
       propertyPath: screenToGo
@@ -1431,12 +1674,52 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 5032113229512397580, guid: 3db00ac73b12d4b4b8cb52fe39be0ffe, type: 3}
+      insertIndex: 5
+      addedObject: {fileID: 660718276}
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 30562766555685345, guid: 3db00ac73b12d4b4b8cb52fe39be0ffe, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 731705884595427486}
     - targetCorrespondingSourceObject: {fileID: 7316367827290574439, guid: 3db00ac73b12d4b4b8cb52fe39be0ffe, type: 3}
       insertIndex: -1
       addedObject: {fileID: 267932332}
+    - targetCorrespondingSourceObject: {fileID: 4695342290030127714, guid: 3db00ac73b12d4b4b8cb52fe39be0ffe, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 112035920}
   m_SourcePrefab: {fileID: 100100000, guid: 3db00ac73b12d4b4b8cb52fe39be0ffe, type: 3}
+--- !u!1 &731705884595427485 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 30562766555685345, guid: 3db00ac73b12d4b4b8cb52fe39be0ffe, type: 3}
+  m_PrefabInstance: {fileID: 731705884595427484}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &731705884595427486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 731705884595427485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62a7101dad1184f238b67f90ec1a03ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _userIsAccessibilityElementProvided: 1
+  m_userIsAccessibilityElement: 1
+  _userAccessibilityTraitsProvided: 1
+  m_userAccessibilityTraits: 0
+  _userAccessibilityLabelProvided: 1
+  m_userAccessibilityLabel: Which cup is drinkable?
+  _userAccessibilityValueProvided: 0
+  m_userAccessibilityValue: 
+  _userAccessibilityHintProvided: 0
+  m_userAccessibilityHint: 
+  _userAccessibilityIdentifierProvided: 0
+  m_userAccessibilityIdentifier: 
+  _userAccessibilityViewIsModalProvided: 0
+  m_userAccessibilityViewIsModal: 0
 --- !u!1001 &2517196838378472397
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1451,7 +1734,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1023083616558579346, guid: 7768b222593084b3cb1d10f2f0d937f7, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2399405180170165955, guid: 7768b222593084b3cb1d10f2f0d937f7, type: 3}
       propertyPath: m_Pivot.x
@@ -1556,8 +1839,14 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 4566285234787188663, guid: 7768b222593084b3cb1d10f2f0d937f7, type: 3}
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 2399405180170165955, guid: 7768b222593084b3cb1d10f2f0d937f7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2068275888}
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7468678826385472474, guid: 7768b222593084b3cb1d10f2f0d937f7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 896332614}
     - targetCorrespondingSourceObject: {fileID: 3769043786696652066, guid: 7768b222593084b3cb1d10f2f0d937f7, type: 3}
       insertIndex: -1
       addedObject: {fileID: 422102699}
