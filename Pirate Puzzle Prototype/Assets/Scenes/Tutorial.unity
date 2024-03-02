@@ -513,7 +513,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a47b7602c0e6457bbbc5c2bd5b9ff5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: MainMenu
+  sceneName: Intro
   transition: {fileID: 11400000, guid: 3ad3e86dc386e60458fda4c93a2c3d62, type: 2}
   loadDelay: 0
 --- !u!1 &519420028
@@ -1312,6 +1312,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: endtutorialscreen
       objectReference: {fileID: 0}
+    - target: {fileID: 1023083616558579346, guid: 7768b222593084b3cb1d10f2f0d937f7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2399405180170165955, guid: 7768b222593084b3cb1d10f2f0d937f7, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1391,6 +1395,10 @@ PrefabInstance:
     - target: {fileID: 2399405180170165955, guid: 7768b222593084b3cb1d10f2f0d937f7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3769043786696652066, guid: 7768b222593084b3cb1d10f2f0d937f7, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4566285234787188663, guid: 7768b222593084b3cb1d10f2f0d937f7, type: 3}
       propertyPath: screenToGo
