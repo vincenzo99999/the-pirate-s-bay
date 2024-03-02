@@ -692,6 +692,7 @@ GameObject:
   - component: {fileID: 1052060035}
   - component: {fileID: 1052060034}
   - component: {fileID: 1052060033}
+  - component: {fileID: 1052060036}
   m_Layer: 5
   m_Name: Hint Shower
   m_TagString: Untagged
@@ -736,6 +737,7 @@ MonoBehaviour:
   - 'The label says: "Poison: Do not drink. Or is it?'
   - Dear pirate 3, due to your very low performance in treasure findings in the last
     business period you will walk the plank. -Captain
+  node: {fileID: 0}
 --- !u!114 &1052060034
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -833,6 +835,32 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1052060031}
   m_CullTransparentMesh: 1
+--- !u!114 &1052060036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1052060031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62a7101dad1184f238b67f90ec1a03ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _userIsAccessibilityElementProvided: 1
+  m_userIsAccessibilityElement: 1
+  _userAccessibilityTraitsProvided: 1
+  m_userAccessibilityTraits: 0
+  _userAccessibilityLabelProvided: 1
+  m_userAccessibilityLabel: 
+  _userAccessibilityValueProvided: 0
+  m_userAccessibilityValue: 
+  _userAccessibilityHintProvided: 0
+  m_userAccessibilityHint: 
+  _userAccessibilityIdentifierProvided: 0
+  m_userAccessibilityIdentifier: 
+  _userAccessibilityViewIsModalProvided: 0
+  m_userAccessibilityViewIsModal: 0
 --- !u!1 &1167521173
 GameObject:
   m_ObjectHideFlags: 0

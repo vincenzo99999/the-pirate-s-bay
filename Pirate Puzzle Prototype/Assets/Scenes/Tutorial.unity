@@ -695,9 +695,9 @@ MonoBehaviour:
   _userAccessibilityTraitsProvided: 1
   m_userAccessibilityTraits: 0
   _userAccessibilityLabelProvided: 1
-  m_userAccessibilityLabel: tap to continue
-  _userAccessibilityValueProvided: 0
-  m_userAccessibilityValue: 
+  m_userAccessibilityLabel: 'tap '
+  _userAccessibilityValueProvided: 1
+  m_userAccessibilityValue: to continue
   _userAccessibilityHintProvided: 0
   m_userAccessibilityHint: 
   _userAccessibilityIdentifierProvided: 0
@@ -767,7 +767,7 @@ MonoBehaviour:
   m_userAccessibilityLabel: 
   _userAccessibilityValueProvided: 1
   m_userAccessibilityValue: Good.   Now find out what accessibility features to use
-    ito solve other levels!
+    to solve other (not yet implemented) levels!
   _userAccessibilityHintProvided: 0
   m_userAccessibilityHint: 
   _userAccessibilityIdentifierProvided: 0
@@ -1233,7 +1233,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8086517691605575909, guid: 1ccfdf39e5f5f4250912ea5c809fff80, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8962572102855202105, guid: 1ccfdf39e5f5f4250912ea5c809fff80, type: 3}
       propertyPath: screenToGo
@@ -1275,6 +1275,7 @@ GameObject:
   - component: {fileID: 1825954592}
   - component: {fileID: 1825954594}
   - component: {fileID: 1825954593}
+  - component: {fileID: 1825954595}
   m_Layer: 5
   m_Name: WIP
   m_TagString: Untagged
@@ -1398,6 +1399,32 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1825954591}
   m_CullTransparentMesh: 1
+--- !u!114 &1825954595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1825954591}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62a7101dad1184f238b67f90ec1a03ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _userIsAccessibilityElementProvided: 1
+  m_userIsAccessibilityElement: 1
+  _userAccessibilityTraitsProvided: 1
+  m_userAccessibilityTraits: 64
+  _userAccessibilityLabelProvided: 1
+  m_userAccessibilityLabel: Yet to implement
+  _userAccessibilityValueProvided: 0
+  m_userAccessibilityValue: 
+  _userAccessibilityHintProvided: 0
+  m_userAccessibilityHint: 
+  _userAccessibilityIdentifierProvided: 0
+  m_userAccessibilityIdentifier: 
+  _userAccessibilityViewIsModalProvided: 0
+  m_userAccessibilityViewIsModal: 0
 --- !u!1 &1925721624 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 138648271709305526, guid: 1ccfdf39e5f5f4250912ea5c809fff80, type: 3}
@@ -1734,7 +1761,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1023083616558579346, guid: 7768b222593084b3cb1d10f2f0d937f7, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2213904735763539912, guid: 7768b222593084b3cb1d10f2f0d937f7, type: 3}
+      propertyPath: m_text
+      value: "Good. \n\nNow find out what accessibility features to use to solve
+        other (not yet implemented) levels!\n\n"
       objectReference: {fileID: 0}
     - target: {fileID: 2399405180170165955, guid: 7768b222593084b3cb1d10f2f0d937f7, type: 3}
       propertyPath: m_Pivot.x
