@@ -152,6 +152,7 @@ MonoBehaviour:
   - German
   languageButtonText: {fileID: 5992024694881886789}
   localisationManager: {fileID: 0}
+  wipAnim: {fileID: 0}
 --- !u!114 &6918275514659996365
 MonoBehaviour:
   m_ObjectHideFlags: 0

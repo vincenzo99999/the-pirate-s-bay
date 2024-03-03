@@ -10,10 +10,14 @@ public class ChangeLanguage : MonoBehaviour
     [SerializeField] TextMeshProUGUI languageButtonText;
     [SerializeField] LocalisationManager localisationManager;
 
+    [SerializeField] Animator wipAnim;
+
     private int languageIndex = 0;
 
     public void SwitchLanguage()
     {
+
+        wipAnim.SetTrigger("buttonPressed");
 
         if(languageIndex < languages.Length -1)
             languageIndex++;
