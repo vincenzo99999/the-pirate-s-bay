@@ -9,6 +9,7 @@ public class TransitionNavigation : MonoBehaviour
     [SerializeField] TransitionSettings transition;
     [SerializeField] float loadDelay = 0f;
 
+
     public void NavigateTo()
     {
         TransitionManager.Instance().Transition(sceneName,transition,loadDelay);
