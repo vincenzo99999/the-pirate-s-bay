@@ -850,6 +850,18 @@ MonoBehaviour:
   sceneName: Intro
   transition: {fileID: 11400000, guid: 013263c83b6a84c4d95beaa8bd163ac8, type: 2}
   loadDelay: 0
+--- !u!114 &797252703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 797252700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca3e97a1fdba2438fb98bd856c25730d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &896332610 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7468678826385472474, guid: 7768b222593084b3cb1d10f2f0d937f7, type: 3}
@@ -1909,6 +1921,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7218656312760283706, guid: 3db00ac73b12d4b4b8cb52fe39be0ffe, type: 3}
       insertIndex: -1
       addedObject: {fileID: 797252702}
+    - targetCorrespondingSourceObject: {fileID: 7218656312760283706, guid: 3db00ac73b12d4b4b8cb52fe39be0ffe, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 797252703}
     - targetCorrespondingSourceObject: {fileID: 30562766555685345, guid: 3db00ac73b12d4b4b8cb52fe39be0ffe, type: 3}
       insertIndex: -1
       addedObject: {fileID: 731705884595427486}
