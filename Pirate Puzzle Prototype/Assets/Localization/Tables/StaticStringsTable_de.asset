@@ -22,6 +22,43 @@ MonoBehaviour:
     m_Localized: "Sprache Ausw\xE4hlen"
     m_Metadata:
       m_Items: []
+  - m_Id: 9615973539840
+    m_Localized: German
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91398572335104
+    m_Localized: Okay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92657425571840
+    m_Localized: "Lernprogramm \xFCberspringen >"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92853224071168
+    m_Localized: Welche Tasse ist trinkbar?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93946981113856
+    m_Localized: TODO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94832906199040
+    m_Localized: "Gut.\n\nFinden Sie jetzt heraus, welche Barrierefreiheitsfunktionen
+      Sie zum L\xF6sen anderer (noch nicht implementierter) Levels verwenden k\xF6nnen!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100621666476032
+    m_Localized: Arggg
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100643409747968
+    m_Localized: "Wer auch immer mir das angetan hat, wird daf\xFCr bezahlen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108674537218048
+    m_Localized: ...
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

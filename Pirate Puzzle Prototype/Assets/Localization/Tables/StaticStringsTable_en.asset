@@ -22,6 +22,50 @@ MonoBehaviour:
     m_Localized: Select Language
     m_Metadata:
       m_Items: []
+  - m_Id: 9615973539840
+    m_Localized: English
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91398572335104
+    m_Localized: Okay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92657425571840
+    m_Localized: Skip Tutorial >
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92853224071168
+    m_Localized: Which cup is drinkable?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93946981113856
+    m_Localized: 'Say:
+
+      "Siri enable voice control"
+
+      And then say:
+
+      "Show
+      names"'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94832906199040
+    m_Localized: "Good. \n\nNow find out what accessibility features to use to solve
+      other (not yet implemented) levels!\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100621666476032
+    m_Localized: Arggg
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100643409747968
+    m_Localized: Whoever did this to me is gonna pay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108674537218048
+    m_Localized: ...
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
