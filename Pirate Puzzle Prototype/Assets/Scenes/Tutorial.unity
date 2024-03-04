@@ -213,6 +213,62 @@ MonoBehaviour:
   m_userAccessibilityIdentifier: 
   _userAccessibilityViewIsModalProvided: 0
   m_userAccessibilityViewIsModal: 0
+--- !u!1 &161492654 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4646989150028132706, guid: 1ccfdf39e5f5f4250912ea5c809fff80, type: 3}
+  m_PrefabInstance: {fileID: 1501416299}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &161492658 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 759463660185725524, guid: 1ccfdf39e5f5f4250912ea5c809fff80, type: 3}
+  m_PrefabInstance: {fileID: 1501416299}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 161492654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &161492660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 161492654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:52d4f870a93a442548c7b1cdc4a4c97e
+    m_TableEntryReference:
+      m_KeyId: 139899953152
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 161492658}
+        m_TargetAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  references:
+    version: 2
+    RefIds: []
 --- !u!1 &253157561
 GameObject:
   m_ObjectHideFlags: 0
@@ -1259,6 +1315,10 @@ PrefabInstance:
       propertyPath: localisedText.Array.data[0]
       value: Select Language
       objectReference: {fileID: 0}
+    - target: {fileID: 1907702269109551200, guid: 1ccfdf39e5f5f4250912ea5c809fff80, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 2731907257700035707, guid: 1ccfdf39e5f5f4250912ea5c809fff80, type: 3}
       propertyPath: wipAnim
       value: 
@@ -1351,6 +1411,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4646989150028132706, guid: 1ccfdf39e5f5f4250912ea5c809fff80, type: 3}
+      propertyPath: m_Name
+      value: SelectLanguageText
+      objectReference: {fileID: 0}
     - target: {fileID: 8086517691605575909, guid: 1ccfdf39e5f5f4250912ea5c809fff80, type: 3}
       propertyPath: m_Name
       value: Select Language Screen
@@ -1363,7 +1427,8 @@ PrefabInstance:
       propertyPath: screenToGo
       value: 
       objectReference: {fileID: 1693661445}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2731907257700035707, guid: 1ccfdf39e5f5f4250912ea5c809fff80, type: 3}
     m_RemovedGameObjects:
     - {fileID: 5325711164868955487, guid: 1ccfdf39e5f5f4250912ea5c809fff80, type: 3}
     m_AddedGameObjects:
@@ -1374,6 +1439,9 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1954509271}
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4646989150028132706, guid: 1ccfdf39e5f5f4250912ea5c809fff80, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 161492660}
     - targetCorrespondingSourceObject: {fileID: 138648271709305526, guid: 1ccfdf39e5f5f4250912ea5c809fff80, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1925721631}
@@ -1637,7 +1705,7 @@ GameObject:
   - component: {fileID: 1992434654}
   - component: {fileID: 1992434656}
   m_Layer: 0
-  m_Name: LocalisationManagerGameObject
+  m_Name: LocalisationManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1679,24 +1747,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1992434653}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ced6714eb0dbe40fbaacd9dd792e9d9b, type: 3}
+  m_Script: {fileID: 11500000, guid: ab75accedd10d48cf8f518ac4e7c83ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  resetGame:
-  - Reset Game
-  - Spiel zuruecksetzen
-  about:
-  - About
-  - Ueber das Spiel
-  changeLanguage:
-  - Change Language
-  - Sprache aendern
-  handHint1: []
-  handHint2: []
-  handHint3: []
-  eyeHint1: []
-  eyeHint2: []
-  eyeHint3: []
 --- !u!1 &2068275887
 GameObject:
   m_ObjectHideFlags: 0
