@@ -18,7 +18,7 @@ public class ChangeLanguage : MonoBehaviour
 
     public void SwitchLanguage()
     {
-
+    
         wipAnim.SetTrigger("buttonPressed");
 
         if(languageIndex < languages.Length -1)

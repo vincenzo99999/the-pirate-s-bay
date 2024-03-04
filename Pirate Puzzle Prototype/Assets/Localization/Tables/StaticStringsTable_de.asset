@@ -23,7 +23,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 9615973539840
-    m_Localized: German
+    m_Localized: Deutsch
     m_Metadata:
       m_Items: []
   - m_Id: 91398572335104
@@ -57,6 +57,24 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 108674537218048
     m_Localized: ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 109604162756608
+    m_Localized: Mit der Augenklappe stimmt etwas nicht
+    m_Metadata:
+      m_Items: []
+  - m_Id: 109712501628928
+    m_Localized: "Das ist ein sehr sexy Bild des Kapit\xE4ns. Was k\xF6nnte das bedeuten?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 109733284405248
+    m_Localized: "Auf dem Etikett steht: \u201EGift: Nicht trinken. Oder doch?\u201C"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 109755518410752
+    m_Localized: "Lieber Pirat 3, aufgrund deiner sehr geringen Leistung bei der
+      Schatzsuche in der letzten Gesch\xE4ftsperiode wirst du \xFCber die Planke
+      laufen.\n\n-Kapit\xE4n"
     m_Metadata:
       m_Items: []
   references:

@@ -66,6 +66,23 @@ MonoBehaviour:
     m_Localized: ...
     m_Metadata:
       m_Items: []
+  - m_Id: 109604162756608
+    m_Localized: Something is wrong with that eyepatch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 109712501628928
+    m_Localized: That's a very sexy picture of the captain. What could that mean?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 109733284405248
+    m_Localized: 'The label says: "Poison: Do not drink. Or is it?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 109755518410752
+    m_Localized: "Dear pirate 3, due to your very low performance in treasure findings
+      in the last business period you will walk the plank. \n\n-Captain"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

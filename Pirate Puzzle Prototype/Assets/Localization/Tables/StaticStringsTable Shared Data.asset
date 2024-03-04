@@ -55,6 +55,22 @@ MonoBehaviour:
     m_Key: Dialogue0 Intro
     m_Metadata:
       m_Items: []
+  - m_Id: 109604162756608
+    m_Key: Hint0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 109712501628928
+    m_Key: Hint1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 109733284405248
+    m_Key: Hint2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 109755518410752
+    m_Key: Hint3
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

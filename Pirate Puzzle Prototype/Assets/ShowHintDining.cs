@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using UnityEngine.Localization.Components;
 using Apple.Accessibility;
 using UnityEngine;
 
@@ -12,6 +13,7 @@ public class ShowHintDining : MonoBehaviour
 
 
     private TMP_Text hintTMP;
+    private LocalizeStringEvent locale;
 
     enum Hints
     {
@@ -25,12 +27,15 @@ public class ShowHintDining : MonoBehaviour
     {
         node = GetComponent<AccessibilityNode>();
         hintTMP = GetComponent<TMP_Text>();
+        locale = GetComponent<LocalizeStringEvent>();
     }
 
     public void ShowHint(int index)
     {
-        node.AccessibilityLabel = hintText[index];
-        hintTMP.text = hintText[index];
+        locale.SetEntry("Hint" + index);
+        node.AccessibilityLabel = hintTMP.text;
+        Debug.Log("clivkef");
+        //hintTMP.text = hintText[index];
     }
 
 }
