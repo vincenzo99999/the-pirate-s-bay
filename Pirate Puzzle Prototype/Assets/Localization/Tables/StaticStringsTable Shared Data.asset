@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: StaticStringsTable Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: StaticStringsTable
+  m_TableCollectionNameGuidString: 52d4f870a93a442548c7b1cdc4a4c97e
+  m_Entries:
+  - m_Id: 139899953152
+    m_Key: SelectLanguageText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9615973539840
+    m_Key: Language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91398572335104
+    m_Key: Okay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92657425571840
+    m_Key: Skip tutorial
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92853224071168
+    m_Key: Which cup is drinkable
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93946981113856
+    m_Key: Hey siri, enable voice over
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94832906199040
+    m_Key: Tutorial success text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100621666476032
+    m_Key: Dialogue1 Intro
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100643409747968
+    m_Key: Dialogue2 Intro
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108674537218048
+    m_Key: Dialogue0 Intro
+    m_Metadata:
+      m_Items: []
+  - m_Id: 109604162756608
+    m_Key: Hint0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 109712501628928
+    m_Key: Hint1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 109733284405248
+    m_Key: Hint2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 109755518410752
+    m_Key: Hint3
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 1706956715750588440
+  references:
+    version: 2
+    RefIds:
+    - rid: 1706956715750588440
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1709538825398

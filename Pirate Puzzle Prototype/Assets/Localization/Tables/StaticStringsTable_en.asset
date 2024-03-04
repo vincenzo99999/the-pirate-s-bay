@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: StaticStringsTable_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 52d4f870a93a442548c7b1cdc4a4c97e, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 139899953152
+    m_Localized: Select Language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9615973539840
+    m_Localized: English
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91398572335104
+    m_Localized: Okay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92657425571840
+    m_Localized: Skip Tutorial >
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92853224071168
+    m_Localized: Which cup is drinkable?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93946981113856
+    m_Localized: 'Say:
+
+      "Siri enable voice control"
+
+      And then say:
+
+      "Show
+      names"'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94832906199040
+    m_Localized: "Good. \n\nNow find out what accessibility features to use to solve
+      other (not yet implemented) levels!\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100621666476032
+    m_Localized: Arggg
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100643409747968
+    m_Localized: Whoever did this to me is gonna pay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108674537218048
+    m_Localized: ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 109604162756608
+    m_Localized: Something is wrong with that eyepatch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 109712501628928
+    m_Localized: That's a very sexy picture of the captain. What could that mean?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 109733284405248
+    m_Localized: 'The label says: "Poison: Do not drink. Or is it?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 109755518410752
+    m_Localized: "Dear pirate 3, due to your very low performance in treasure findings
+      in the last business period you will walk the plank. \n\n-Captain"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

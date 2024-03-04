@@ -11,12 +11,14 @@ public class ChangeLanguage : MonoBehaviour
     [SerializeField] LocalisationManager localisationManager;
 
     [SerializeField] Animator wipAnim;
+    [SerializeField] LocaleSelector localeSelector;
 
     private int languageIndex = 0;
 
+
     public void SwitchLanguage()
     {
-
+    
         wipAnim.SetTrigger("buttonPressed");
 
         if(languageIndex < languages.Length -1)
@@ -24,8 +26,10 @@ public class ChangeLanguage : MonoBehaviour
         else
             languageIndex = 0;
 
-        languageButtonText.text = languages[languageIndex];
+        localeSelector.ChangeLocale(languageIndex);
 
-        localisationManager.SetLocalisation(languageIndex);
+        //languageButtonText.text = languages[languageIndex];
+
+        //localisationManager.SetLocalisation(languageIndex);
     }
 }
