@@ -71,6 +71,26 @@ MonoBehaviour:
     m_Key: Hint3
     m_Metadata:
       m_Items: []
+  - m_Id: 1114966571606016
+    m_Key: poison
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1119257956966400
+    m_Key: neckless, trinket
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1119363527598080
+    m_Key: letter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1119468427141120
+    m_Key: Bottles
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1119532478357504
+    m_Key: Eyepatch
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

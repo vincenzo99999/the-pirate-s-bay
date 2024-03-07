@@ -8,8 +8,6 @@ public class Accessibilityfix : MonoBehaviour
 {
 
     AccessibilityNode parentNode;
-    public string parentNodeLabel;
-    public string parentNodeValue;
 
 
     private void Start()
@@ -28,9 +26,6 @@ public class Accessibilityfix : MonoBehaviour
             parentNode.AccessibilityHint = node.AccessibilityHint;
             parentNode.AccessibilityIdentifier = node.AccessibilityIdentifier;
             parentNode.AccessibilityValue = node.AccessibilityValue;
-
-            parentNodeLabel = node.AccessibilityLabel;
-            parentNodeValue = node.AccessibilityValue;
 
             node.enabled = false;
 

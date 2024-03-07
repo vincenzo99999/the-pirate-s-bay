@@ -83,6 +83,26 @@ MonoBehaviour:
       in the last business period you will walk the plank. \n\n-Captain"
     m_Metadata:
       m_Items: []
+  - m_Id: 1114966571606016
+    m_Localized: Poison
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1119257956966400
+    m_Localized: Trinket
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1119363527598080
+    m_Localized: Letter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1119468427141120
+    m_Localized: Bottles
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1119532478357504
+    m_Localized: Eyepatch
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

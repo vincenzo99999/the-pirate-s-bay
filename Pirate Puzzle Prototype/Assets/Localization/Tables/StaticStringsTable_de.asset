@@ -77,6 +77,26 @@ MonoBehaviour:
       laufen.\n\n-Kapit\xE4n"
     m_Metadata:
       m_Items: []
+  - m_Id: 1114966571606016
+    m_Localized: Gift
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1119257956966400
+    m_Localized: Halslos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1119363527598080
+    m_Localized: Brief
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1119468427141120
+    m_Localized: Flaschen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1119532478357504
+    m_Localized: Augenklappe
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
