@@ -34,7 +34,6 @@ public class ShowHintDining : MonoBehaviour
     {
         locale.SetEntry("Hint" + index);
         node.AccessibilityLabel = hintTMP.text;
-        Debug.Log("clivkef");
         //hintTMP.text = hintText[index];
     }
 
