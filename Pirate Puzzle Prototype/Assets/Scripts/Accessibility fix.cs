@@ -6,7 +6,13 @@ using UnityEngine;
 
 public class Accessibilityfix : MonoBehaviour
 {
-    private void Awake()
+
+    AccessibilityNode parentNode;
+    public string parentNodeLabel;
+    public string parentNodeValue;
+
+
+    private void Start()
     {
         AccessibilityNode node;
         //Check if has accessibility component
@@ -15,7 +21,7 @@ public class Accessibilityfix : MonoBehaviour
             GameObject accessibilityParent = new GameObject(gameObject.name + "_AccParent", typeof(RectTransform));
             accessibilityParent.transform.position = transform.position;
             accessibilityParent.transform.SetParent(transform.parent);
-            AccessibilityNode parentNode = accessibilityParent.AddComponent<AccessibilityNode>();
+            parentNode = accessibilityParent.AddComponent<AccessibilityNode>();
 
             parentNode.AccessibilityLabel = node.AccessibilityLabel;
             parentNode.AccessibilityTraits = node.AccessibilityTraits;
@@ -23,9 +29,23 @@ public class Accessibilityfix : MonoBehaviour
             parentNode.AccessibilityIdentifier = node.AccessibilityIdentifier;
             parentNode.AccessibilityValue = node.AccessibilityValue;
 
+            parentNodeLabel = node.AccessibilityLabel;
+            parentNodeValue = node.AccessibilityValue;
+
             node.enabled = false;
 
             transform.SetParent(accessibilityParent.transform);
+
+            parentNode.accessibilityLabelDelegate = () =>
+            {
+                return node.AccessibilityLabel;
+            };
+
+            parentNode.accessibilityValueDelegate = () =>
+            {
+                return node.AccessibilityValue;
+            };
         }
     }
+
 }

@@ -317,9 +317,32 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 161492662}
+        m_TargetAssemblyTypeName: Apple.Accessibility.AccessibilityNode, Apple.Accessibility
+        m_MethodName: set_AccessibilityLabel
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   references:
     version: 2
     RefIds: []
+--- !u!114 &161492662 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 315726313599489850, guid: 1ccfdf39e5f5f4250912ea5c809fff80, type: 3}
+  m_PrefabInstance: {fileID: 1501416299}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 161492654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62a7101dad1184f238b67f90ec1a03ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &253157561
 GameObject:
   m_ObjectHideFlags: 0
@@ -969,6 +992,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca3e97a1fdba2438fb98bd856c25730d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  parentNodeLabel: 
+  parentNodeValue: 
 --- !u!1 &896332610 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7468678826385472474, guid: 7768b222593084b3cb1d10f2f0d937f7, type: 3}
@@ -1215,6 +1240,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1083120153}
         m_TargetAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
         m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 300219467}
+        m_TargetAssemblyTypeName: Apple.Accessibility.AccessibilityNode, Apple.Accessibility
+        m_MethodName: set_AccessibilityLabel
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1682,6 +1719,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1925721640}
+        m_TargetAssemblyTypeName: Apple.Accessibility.AccessibilityNode, Apple.Accessibility
+        m_MethodName: set_AccessibilityLabel
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   references:
     version: 2
     RefIds: []
@@ -1863,6 +1912,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca3e97a1fdba2438fb98bd856c25730d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  parentNodeLabel: 
+  parentNodeValue: 
 --- !u!114 &1925721638 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2731907257700035707, guid: 1ccfdf39e5f5f4250912ea5c809fff80, type: 3}
@@ -1872,6 +1923,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b2e35a19ba9d84bd7b89b21586e28f6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1925721640 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6918275514659996365, guid: 1ccfdf39e5f5f4250912ea5c809fff80, type: 3}
+  m_PrefabInstance: {fileID: 1501416299}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1925721624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62a7101dad1184f238b67f90ec1a03ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1954509270
